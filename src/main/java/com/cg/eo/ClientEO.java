@@ -1,0 +1,17 @@
+package com.cg.eo;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class ClientEO {
+	
+	private long id;
+	private String emp_Name;
+	private String emp_EmailId;
+	private int emp_Age;
+	
+}
